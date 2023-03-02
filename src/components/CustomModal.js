@@ -18,16 +18,6 @@ export default function CustomModal({
       <ModalHeader toggle={toggle}>{title}</ModalHeader>
       <ModalBody>{children}</ModalBody>
       <ModalFooter>
-        {/* {state.clickInfo && (
-          <Button color="primary" onClick={handleDelete}>
-            Delete
-          </Button>
-        )}
-        {state.clickInfo && (
-          <Button color="secondary" onClick={handleEdit}>
-            Edit
-          </Button>
-        )} */}
         {onCancel && (
           <Button color="secondary" onClick={onCancel}>
             {cancelText || "Cancel"}

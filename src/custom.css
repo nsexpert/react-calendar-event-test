@@ -9,3 +9,16 @@
   font-size: 1.5em;
   color: #00b294;
 }
+
+.service-btn {
+  border: none;
+  background: transparent;
+}
+
+.service-btn:focus {
+  outline: none;
+}
+
+.service-input {
+  border: none;
+}
